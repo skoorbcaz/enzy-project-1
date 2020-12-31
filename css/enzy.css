@@ -28,6 +28,10 @@ button {
   cursor: pointer;
   transition: ease 1s;
 }
+a:-webkit-any-link {
+  color: var(--gray-100);
+  text-decoration: none;
+}
 button:hover {
   color: var(--primary);
   border-color: var(--primary);
@@ -36,7 +40,6 @@ h2 {
   text-align: center;
   font-size: 52px;
   margin-top: 170px;
-
 }
 a {
   font-size: 0.9em;
@@ -69,7 +72,7 @@ a.active {
   justify-content: space-between;
   align-items: center;
 }
-
+/* Hero */
 .hero-container {
   margin: auto;
   text-align: center;
@@ -99,8 +102,8 @@ img.landing {
   max-width: 100%;
   margin-bottom: 100px;
 }
-.landing-flair{
-  position:relative;
+.landing-flair {
+  position: relative;
 }
 
 .overlay {
@@ -112,13 +115,13 @@ img.landing {
   left: 0px;
   background-image: linear-gradient(0deg, #060606, transparent);
 }
+/* FEATURES */
 .features-container {
   margin: auto;
   text-align: center;
   max-width: 1400px;
   max-height: 980px;
   margin-top: 2em;
-  
 }
 .features-container h2 {
   font-size: 52px;
@@ -133,28 +136,27 @@ img.landing {
   display: flex;
   flex-direction: column;
 }
-.features-container h3{
+.features-container h3 {
   font-size: 20px;
   display: flex;
   flex-direction: column;
-
-  }
-.features-box{
+}
+.features-box {
   max-width: 1105px;
   max-height: 759px;
   margin: auto;
   margin-top: 100px;
   text-align: center;
   display: flex;
-
 }
-.contents-container{
+/* CONTENTS */
+.contents-container {
   margin: auto;
   max-width: 950px;
   max-height: 830px;
-text-align: center;
+  text-align: center;
 }
-.contents-container h2{
+.contents-container h2 {
   font-size: 52px;
   font-weight: 300;
   margin-top: 200px;
@@ -166,20 +168,18 @@ text-align: center;
   line-height: 30px;
 }
 .contents-container img {
-margin-left: -45px;
+  margin-left: -45px;
 }
 .gallery-box {
   margin: auto;
   max-width: 1050px;
   max-height: 900px;
   text-align: center;
-
 }
 .gallery-box h2 {
   font-size: 52px;
   font-weight: 300px;
   margin-top: 200px;
-
 }
 .gallery-box p {
   color: var(--gray-200);
@@ -213,18 +213,16 @@ margin-left: -45px;
 .button-center {
   position: relative;
   margin: 100px 860px;
-
 }
 .designer {
-    max-width: 923px;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
+  max-width: 923px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
 }
 .row {
   margin-bottom: 30px;
   display: flex;
-
 }
 .row p {
   font-size: 16px;
@@ -236,9 +234,9 @@ margin-left: -45px;
   border-radius: 10px;
   background-color: transparent;
   margin-top: 30px;
- padding:2em;
- flex: 1;
-    margin-right: 2em;
+  padding: 2em;
+  flex: 1;
+  margin-right: 2em;
 }
 
 .info img {
@@ -258,12 +256,10 @@ margin-left: -45px;
   border: solid 1px var(--background);
   border-radius: 20px;
   margin: 300px 350px;
-  
 }
 .grey-box button {
   margin-left: 100px;
   margin-bottom: 170px;
-  
 }
 
 .contact {
@@ -276,7 +272,6 @@ margin-left: -45px;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 .contact-list {
   max-width: 121px;
@@ -291,7 +286,6 @@ margin-left: -45px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 .contact-list a {
   display: flex;
@@ -300,3 +294,4 @@ margin-left: -45px;
 }
 .location {
   justify-content: space-between;
+}
